@@ -80,7 +80,7 @@ body {
 
 /*
   ========================================
-  Header
+  Navigation Bar
   ========================================
 */
 
@@ -190,6 +190,16 @@ h1 {
 
 @media all and (max-width: 750px) {
 
+/*body*/
+    body {
+        padding: 0 10px;
+    }
+    
+/*Navigation Bar*/ 
+    .nav-right {
+        padding-right: 10px;
+    }
+    
 /*Intro*/
 
     .intro {
