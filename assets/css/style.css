@@ -66,7 +66,7 @@ table {
 
 /*
   ========================================
-  Font declaration
+  General
   ========================================
 */
 
@@ -75,6 +75,21 @@ body {
     font-size:24px;
     font-weight: 500;
     padding: 0 20px;
+}
+
+.text {
+    width: 50%;
+    font-size: 0.7em;
+    line-height: 1.2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.linebreak {
+    padding-top: 30px;
 }
 
 
@@ -95,7 +110,7 @@ body {
 
 .name {
     float: left;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1em;
 }
 
@@ -118,9 +133,6 @@ body {
 
 .intro {
     padding: 110px 5px 20px 5px;
-    width: 50%;
-    font-size: 0.7em;
-    line-height: 1.2em;
 }
 
 
@@ -129,6 +141,10 @@ body {
   Gallery
   ========================================
 */
+
+.column_1 {
+    padding: 5px; 
+}
 
 .column_2 {
     float: left;
@@ -172,13 +188,36 @@ h1 {
 
 /*
   ========================================
+  Detail Page
+  ========================================
+*/
+
+.cover {
+    padding: 100px 0 0 0;
+}
+
+.text_1 {
+    padding: 10px 5px 40px 5px;
+}
+
+.text_2 {
+    padding: 30px 5px 10px 5px;
+    
+}
+
+h2 {
+    font-weight: 700;
+}
+
+
+/*
+  ========================================
   Bottom
   ========================================
 */
 
 .bottom {
-    padding: 90px 0 20px 0;
-    font-size: 0.7em
+    padding: 100px 5px 20px 5px;
 }
 
 
@@ -195,22 +234,18 @@ h1 {
         padding: 0 10px;
     }
     
-/*Navigation Bar*/ 
-    .nav-right {
-        padding-right: 10px;
-    }
-    
-/*Intro*/
-
-    .intro {
+/*Text*/ 
+    .text {
         width: 100%;
     }
     
-
+/*Navigation Bar*/ 
+    .nav-right {
+        padding-right: 20px;
+    }
+    
 /*Gallery*/
-
     .column {
         width: 100%;
     }
 	
-}
