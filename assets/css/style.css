@@ -78,7 +78,6 @@ body {
 }
 
 .text {
-    width: 50%;
     font-size: 0.7em;
     line-height: 1.2em;
 }
@@ -114,7 +113,7 @@ a {
     font-size: 1em;
 }
 
-.tap {
+.tab {
     padding: 2.4px 0 2.4px 40px;
     font-size: 0.8em;
 }
@@ -133,6 +132,7 @@ a {
 
 .intro {
     padding: 110px 5px 20px 5px;
+    width: 50%;
 }
 
 
@@ -196,17 +196,37 @@ h1 {
     padding: 100px 0 0 0;
 }
 
-.text_1 {
-    padding: 10px 5px 40px 5px;
+.text_box {
+    padding: 10px 5px 50px 5px;
+
 }
 
 .text_2 {
     padding: 30px 5px 10px 5px;
-    
+    width: 50%;
+}
+
+.text_l {
+    float: left;
+    width: 50%;
+}
+
+.text_r {
+    float: right;
+    width: 25%;
 }
 
 h2 {
     font-weight: 700;
+}
+
+.annotation {
+    padding: 5px;
+    width: 50%;
+}
+
+.video {
+    width: 100%;
 }
 
 
@@ -234,15 +254,38 @@ h2 {
         padding: 0 10px;
     }
     
+    
 /*Text*/ 
-    .text {
+    .intro {
         width: 100%;
     }
+    
+    .text_2 {
+        width: 100%;
+    }
+    
+    .text_l {
+        width: 100%;
+    }
+    
+    .text_r {
+        width: 100%;
+    }
+    
+    .annotation {
+        width: 100%;
+}
+    
     
 /*Navigation Bar*/ 
     .nav-right {
         padding-right: 20px;
     }
+    
+    .tab {
+        padding-left: 20px;
+    }
+    
     
 /*Gallery*/
     .column {
