@@ -311,6 +311,10 @@ h6 {
     .text_box {
         padding: 10px 5px 30px 5px;
     }
+    
+    .text_1st {
+        width: 100%;
+    }
 
     .text_2 {
         padding: 20px 5px 10px 5px;
