@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>About - Ziqi Cai</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        
+        <div id="navbar">
+            <a class="name" href="index.html">Ziqi Cai</a>
+            <div class="nav-right">
+                <a class="tab" href="index.html">Work</a>
+                <a class="tab" href="about.html">About</a>
+            </div>
+        </div>
+        
+        <div class="row cover">
+            <div class="text_box text about_l">
+                Hello! I am Ziqi Cai, a passionate graphic designer and illustrator originally from Guangzhou, China and currently residing in Ellicott City, Maryland. With a keen eye for detail and a love for telling stories in visual formats, I specialize in transforming ideas into visually elegant and impactful designs. My work spans <a style='font-weight: 700'>branding</a>, <a style='font-weight: 700'>packaging</a>, <a style='font-weight: 700'>illustration</a>, <a style='font-weight: 700'>type design</a>, and <a style='font-weight: 700'>digital experience</a>.
+                <br><br>
+                I am an indoor person who also loves outdoor activities, including cycling, swimming, and hiking. I once cycled around the Taiwan Island solely for 1,113 kilometers in 12 days.
+                <br><br>
+                I believe talent is not just something inborn, but also something that comes from unceasing efforts and determined goals. I am ready to continue my journey to explore the fascinating world of art and technology.
+                <br><br>
+                Please feel free to reach out at <a style='font-weight: 700'>dotzcai@gmail.com</a>.
+            </div>
+            
+            <div class="column about_r">
+                <img src="assets/images/about/funny_diving.jpg">
+            </div>
+        </div>
+        
+        <div class="text bottom">
+            ©️ 2023 Ziqi Cai. All rights reserved.
+        </div>
+        
+        <script>
+            var lastScrollTop;
+            navbar = document.getElementById('navbar');
+            window.addEventListener('scroll',function(){
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if(scrollTop > lastScrollTop){
+            navbar.style.top='-64px';
+            }
+            else{
+            navbar.style.top='0';
+            }
+            lastScrollTop = scrollTop;
+            });
+        </script>
+        
+    </body>
+</html>
