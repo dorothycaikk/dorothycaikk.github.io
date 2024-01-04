@@ -144,7 +144,7 @@ a {
 */
 
 #work {
-    padding-top: 100px;
+    padding-top: 64px;
 }
 
 .column_1 {
@@ -304,10 +304,6 @@ h6 {
 /*body*/
     body {
         padding: 0 10px;
-    }
-    
-    #work {
-        padding-top: 64px;
     }
     
     
